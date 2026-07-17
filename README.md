@@ -6,7 +6,7 @@ The workflow analyzes a funding opportunity, extracts the core research topic, r
 
 ## Result
 
-This project was developed as part of an Applied Generative AI certification and received a final score of **40 / 40**.
+This project was developed as part of the Applied Generative AI certification program from Johns Hopkins University and received a final score of **40 / 40**.
 
 Evaluator feedback highlighted correct LLM setup, clear prompting, strong relevance assessment, coherent proposal ideation, structured proposal generation, systematic evaluation, and meaningful summary recommendations.
 
