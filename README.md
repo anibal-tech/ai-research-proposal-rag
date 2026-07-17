@@ -189,6 +189,16 @@ This project demonstrates applied capabilities in:
 - Workflow orchestration
 - Responsible AI implementation
 
+## Status
+
+Public portfolio version.
+
+This repository presents a portfolio-ready version of an Applied Generative AI project focused on Retrieval-Augmented Generation, research proposal development, source-grounded drafting, and LLM-as-Judge evaluation.
+
+The public version has been reviewed and sanitized. It does not include private course materials, proprietary content, credentials, API keys, or sensitive data.
+
+The repository will continue evolving as additional documentation, evaluation notes, and portfolio refinements are added.
+
 ## Responsible Use Disclaimer
 
 This repository is intended for educational and portfolio purposes. It demonstrates a technical workflow for AI-assisted research proposal automation and should not be used as a substitute for expert scientific, legal, ethical, clinical, or grant-writing review.
