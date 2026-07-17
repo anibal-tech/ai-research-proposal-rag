@@ -1,0 +1,25 @@
+# Secrets
+config.json
+.env
+*.key
+*.pem
+
+# Course/private files
+Project_Files.zip
+ResearchPapers.zip
+NOFO.pdf
+Research Proposal Template.pdf
+Papers/
+Project Files/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
