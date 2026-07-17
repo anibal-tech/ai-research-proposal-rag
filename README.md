@@ -6,7 +6,7 @@ The workflow analyzes a funding opportunity, extracts the core research topic, r
 
 ## Result
 
-This project was completed as part of an Applied Generative AI certification and received a final score of **40 / 40**.
+This project was developed as part of an Applied Generative AI certification and received a final score of **40 / 40**.
 
 Evaluator feedback highlighted correct LLM setup, clear prompting, strong relevance assessment, coherent proposal ideation, structured proposal generation, systematic evaluation, and meaningful summary recommendations.
 
@@ -14,14 +14,19 @@ Evaluator feedback highlighted correct LLM setup, clear prompting, strong releva
 
 Research teams often spend significant time reviewing funding opportunities, searching prior work, identifying relevant papers, drafting proposal ideas, and aligning proposals with evaluation criteria.
 
-This project explores how generative AI can reduce manual effort and improve consistency by combining:
+This project explores how generative AI can reduce manual effort and improve consistency by combining document processing, semantic search, Retrieval-Augmented Generation, prompt engineering, LLM-based evaluation, and iterative proposal refinement.
 
-- Document processing
-- Semantic search
-- Retrieval-Augmented Generation
-- Prompt engineering
-- LLM-based evaluation
-- Iterative proposal refinement
+## Project Objective
+
+The objective of this project is to demonstrate a complete AI-assisted workflow that can:
+
+- Analyze a funding opportunity document.
+- Identify the core research topic.
+- Retrieve relevant research papers from a document corpus.
+- Generate proposal ideas based on filtered research.
+- Draft a structured research proposal.
+- Evaluate the proposal against defined review criteria.
+- Improve the proposal through an LLM-based revision loop.
 
 ## Key Capabilities
 
@@ -38,19 +43,20 @@ This project explores how generative AI can reduce manual effort and improve con
 
 ## Workflow
 
-1. Load funding opportunity document.
+1. Load the funding opportunity document.
 2. Extract the core research topic.
 3. Load and process research papers.
-4. Generate embeddings.
-5. Store vectors in FAISS.
-6. Retrieve relevant papers.
-7. Summarize and assess relevance.
-8. Generate proposal ideas.
-9. Select the strongest idea.
-10. Draft a structured research proposal.
-11. Evaluate the proposal using LLM-as-Judge.
-12. Revise and improve the final proposal.
-13. Generate summary and recommendations.
+4. Split documents into chunks.
+5. Generate embeddings.
+6. Store vectors in FAISS.
+7. Retrieve relevant papers using semantic search.
+8. Summarize and assess paper relevance.
+9. Generate proposal ideas based on filtered research.
+10. Select the strongest proposal idea.
+11. Draft a structured research proposal.
+12. Evaluate the proposal using LLM-as-Judge.
+13. Revise and improve the final proposal.
+14. Generate summary and recommendations.
 
 ## Selected Proposal Idea
 
@@ -81,6 +87,33 @@ This idea was selected because it was strongly aligned with the funding topic an
 - `prompts/`: sanitized prompt templates used in the workflow.
 - `assets/`: images or visual evidence related to the project.
 
+## Project Files
+
+- `notebooks/rag_research_proposal_automation.ipynb`: editable notebook containing the implementation workflow.
+- `outputs/final_project_report.html`: exported HTML version of the executed notebook, included as a readable project report.
+- `outputs/sample_generated_proposal.md`: sanitized sample of the generated proposal output.
+
+## Documentation
+
+Additional documentation is available in the `docs/` folder:
+
+- `docs/project-overview.md`: high-level overview of the project.
+- `docs/methodology.md`: explanation of the RAG workflow and project methodology.
+- `docs/architecture-overview.md`: architecture sequence and workflow components.
+- `docs/evaluation-summary.md`: summary of the final evaluation result.
+
+## Prompt Templates
+
+The `prompts/` folder includes sanitized versions of the main prompt strategies used in the workflow:
+
+- Topic extraction
+- Research paper relevance assessment
+- Proposal ideation
+- Proposal generation
+- Proposal evaluation
+
+These prompt templates are included to demonstrate the prompting strategy without redistributing proprietary course materials or private data.
+
 ## Responsible AI and Data Handling
 
 This repository contains a sanitized educational and portfolio version of the project.
@@ -101,24 +134,49 @@ The goal is to demonstrate the architecture, workflow, prompting strategy, and e
 
 This project reinforced the importance of:
 
-- Designing clear prompts with measurable outputs
-- Structuring RAG workflows around business objectives
-- Validating model outputs against explicit criteria
-- Combining retrieval, generation, and evaluation
-- Applying human-in-the-loop thinking to AI-assisted workflows
+- Designing clear prompts with measurable outputs.
+- Structuring RAG workflows around business objectives.
+- Validating model outputs against explicit criteria.
+- Combining retrieval, generation, and evaluation.
+- Applying human-in-the-loop thinking to AI-assisted workflows.
+- Keeping sensitive files, credentials, and proprietary material out of public repositories.
+- Using AI not only to generate content, but also to evaluate and improve it.
 
 ## Potential Improvements
 
 Future versions could include:
 
-- Hybrid search with keyword and vector retrieval
-- Metadata-aware retrieval
-- Automated citation extraction
-- Better source grounding
-- Multi-step proposal revision loops
-- Human expert review checkpoints
-- Streamlit or FastAPI interface for interactive use
+- Hybrid search with keyword and vector retrieval.
+- Metadata-aware retrieval.
+- Automated citation extraction.
+- Better source grounding.
+- Multi-step proposal revision loops.
+- Human expert review checkpoints.
+- Streamlit or FastAPI interface for interactive use.
+- Automated quality scoring dashboards.
+- Configurable retrieval filters by topic, year, author, or methodology.
+- Integration with a document management system or research knowledge base.
+
+## Portfolio Relevance
+
+This project demonstrates applied capabilities in:
+
+- Generative AI solution design
+- Retrieval-Augmented Generation
+- Document intelligence
+- Semantic search
+- Prompt engineering
+- AI-assisted decision support
+- LLM-based evaluation
+- Research automation
+- Workflow orchestration
+- Responsible AI implementation
 
 ## Responsible Use Disclaimer
 
-This repository is intended for educational and portfolio purposes. It demonstrates a technical workflow for AI-assisted research proposal automation and should not be used as a substitute for expert scientific, legal, ethical, or grant-writing review.
+This repository is intended for educational and portfolio purposes. It demonstrates a technical workflow for AI-assisted research proposal automation and should not be used as a substitute for expert scientific, legal, ethical, clinical, or grant-writing review.
+
+## Author
+
+**Anibal Arias**  
+Technology Development Manager | IT Delivery | Applied Generative AI | RAG Workflows
