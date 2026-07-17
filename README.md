@@ -4,6 +4,23 @@ This project demonstrates how Retrieval-Augmented Generation (RAG) and LLM-based
 
 The workflow analyzes a funding opportunity, extracts the core research topic, retrieves relevant research papers, generates proposal ideas, drafts a structured proposal, evaluates the proposal against funding criteria, and applies an improvement loop using LLM-as-Judge feedback.
 
+## Best way to review this repository
+
+Start with the README to understand the academic context, project result, RAG workflow, and evaluation approach.
+
+Then review the repository in this order:
+
+- Project objective and academic context
+- RAG workflow and document retrieval approach
+- LangChain, FAISS, embeddings, and LLM setup notes
+- Research proposal generation flow
+- LLM-as-Judge evaluation approach
+- Final result and evaluator feedback
+
+This repository is best reviewed as an applied AI workflow for research proposal support, source-grounded drafting, structured ideation, and systematic evaluation.
+
+The public version has been reviewed and sanitized for portfolio visibility. It does not include private course materials, proprietary content, credentials, API keys, or sensitive data.
+
 ## Result
 
 This project was developed as part of the Applied Generative AI certification program from Johns Hopkins University and received a final score of **40 / 40**.
