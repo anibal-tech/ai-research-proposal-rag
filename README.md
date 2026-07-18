@@ -1,5 +1,12 @@
 # AI Research Proposal RAG Assistant
 
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![RAG](https://img.shields.io/badge/RAG-LangChain%20%2B%20FAISS-blueviolet)
+![Embeddings](https://img.shields.io/badge/Embeddings-HuggingFace-yellow)
+![Evaluation](https://img.shields.io/badge/Evaluation-LLM--as--Judge-purple)
+![Score](https://img.shields.io/badge/Score-40%2F40-success)
+![Status](https://img.shields.io/badge/Status-Public%20portfolio%20version-brightgreen)
+
 This project demonstrates how Retrieval-Augmented Generation (RAG) and LLM-based evaluation can support research proposal automation.
 
 The workflow analyzes a funding opportunity, extracts the core research topic, retrieves relevant research papers, generates proposal ideas, drafts a structured proposal, evaluates the proposal against funding criteria, and applies an improvement loop using LLM-as-Judge feedback.
