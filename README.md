@@ -4,6 +4,8 @@ This project demonstrates how Retrieval-Augmented Generation (RAG) and LLM-based
 
 The workflow analyzes a funding opportunity, extracts the core research topic, retrieves relevant research papers, generates proposal ideas, drafts a structured proposal, evaluates the proposal against funding criteria, and applies an improvement loop using LLM-as-Judge feedback.
 
+![AI Research Proposal RAG workflow](assets/diagrams/ai-research-proposal-rag-flow.png)
+
 ## Best way to review this repository
 
 Start with the README to understand the academic context, project result, RAG workflow, and evaluation approach.
